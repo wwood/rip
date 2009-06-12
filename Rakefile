@@ -40,7 +40,7 @@ begin
     gemspec.description = "Rip: Ruby's Intelligent Packaging"
     gemspec.authors = ["Chris Wanstrath"]
     gemspec.extensions = ["ext/extconf.rb"]
-    gemspec.executables = ['']
+    gemspec.executables = ['rip']
     gemspec.has_rdoc = false
     gemspec.extra_rdoc_files = ['']
     gemspec.post_install_message = Rip::Setup.finish_setup_banner
